@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: #5cb142;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .login-box {
+    width: 480px;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0 0 8px #505050;
+}
+
+.section .login-box .login-form {
+    padding: 4rem;
+}
+
+.section .login-box .login-form .block {
+    padding: 0.75rem;
+}
+
+.section .login-box .login-form .block input {
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #cccccc;
+    border: none;
+    outline: none;
+}
+
+.section .login-box .login-form .block .btn {
+    width: 100%;
+    padding: 14px 26px;
+    background-color: #5cb142;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.register-link {
+    text-align: center;
+    padding: 1rem;
+}
+
+.register-link p {
+    color: #cccccc;
+    font-size: 1rem;
+}
+
+.register-link p a {
+    text-decoration: none;
+    color: #5cb142;
+}
+
+
+/*# sourceMappingURL=style.css.map */
